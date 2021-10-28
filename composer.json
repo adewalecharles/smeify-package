@@ -1,0 +1,21 @@
+{
+    "name": "adewalecharles/smeify",
+    "description": "Integrate Smeify easily into your apllication",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adewalecharles\\Smeify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adewale Charles",
+            "email": "shyprince1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+         "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
