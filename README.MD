@@ -109,9 +109,136 @@ class TestController extends Controller
 To get all your list of transactions from smeify all you need to do is call Smeify helper method like so
 
 ```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
 public function index()
     {
 
         return Smeify::getTransactions();
     }
+}
+```
+To initiate an Airtime transaction, just call the smeify helper method like so
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
+public function index(Request $request)
+    {
+        $data = array(
+            'phones' => $request['phones'],
+            'amount' => $request['amount'],
+            'network' => $request['network'],
+            'type' => $request['type'] //network can be SAS or VTU
+        )
+
+        $response =  Smeify::airtime($data);
+
+        // Then you can do whatever you want with the response either charge your users or log it...
+    }
+}
+```
+
+To initiate an Data transaction, just call the smeify helper method like so
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
+public function index(Request $request)
+    {
+        $data = array(
+             'phones' => $plan['phones'],
+            'plan' => $plan['plan'], //plan is the id of the plan you got when you called the getDataPlans() method.
+        )
+
+        $response =  Smeify::data($data);
+
+        // Then you can do whatever you want with the response either charge your users or log it...
+    }
+}
+```
+To get Data plans based on a particular network, call this package helper method like so.
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
+public function index(Request $request)
+    {
+
+        $response =  Smeify::getDataPlansByNetworkId($networkId);
+
+        // Then you can do whatever you want with the response either log it...
+    }
+}
+```
+To verify a transaction or confirm its status using its refrence call this package helper method like so.
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
+public function index(Request $request)
+    {
+
+        $response =  Smeify::veriyTransactionByReference($reference);
+
+        // Then you can do whatever you want with the response either log it...
+    }
+}
+```
+
+To verify bulk transactions or confirm there status using their order_id call this package helper method like so.
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use AdewaleCharles\Smeify\Http\Smeify;
+use Illuminate\Http\Request;
+
+class TestController extends Controller
+{
+public function index(Request $request)
+    {
+
+        $response =  Smeify::verifyTransactionByOrderId($orderId);
+
+        // Then you can do whatever you want with the response either log it...
+    }
+}
 ```
