@@ -1,5 +1,9 @@
 # Smeify Laravel Package
 
+[![Latest Stable Version](https://poser.pugx.org/unicodeveloper/laravel-paystack/v/stable.svg)](https://packagist.org/packages/adewalecharles/smeify)
+[![License](https://poser.pugx.org/unicodeveloper/laravel-paystack/license.svg)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/unicodeveloper/laravel-paystack.svg?style=flat-square)](https://packagist.org/packages/adewalecharles/smeify)
+
 ## Smeify is a Stable Automated Solution for Airtime and Data businesses in Nigeria, this package helps you integrate smeify easily into your laravel application.
 
 ## Installation
