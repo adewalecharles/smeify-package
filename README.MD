@@ -1,6 +1,7 @@
 # Smeify Laravel Package
 [![Latest Version](https://img.shields.io/github/release/adewalecharles/smeify-package.svg?style=flat-square)](https://github.com/adewalecharles/smeify-package/releases)
-[![Latest Stable Version](https://poser.pugx.org/adewalecharles/smeify/v/stable.svg)](https://packagist.org/packages/adewalecharles/smeify)
+[![Github Forks](https://img.shields.io/github/forks/adewalecharles/smeify-package)](https://github.com/adewalecharles/smeify-package)
+[![Github Stars](https://img.shields.io/github/stars/adewalecharles/smeify-package)](https://github.com/adewalecharles/smeify-package)
 [![License](https://poser.pugx.org/adewalecharles/smeify/license.svg)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/adewalecharles/smeify.svg?style=flat-square)](https://packagist.org/packages/adewalecharles/smeify)
 
