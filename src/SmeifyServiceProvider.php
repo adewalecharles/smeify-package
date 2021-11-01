@@ -15,8 +15,8 @@ class SmeifyServiceProvider extends ServiceProvider
          */
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         $this->publishes([
-            __DIR__ . '/../config/smeify.php' => config_path('smeify.php'),
-        ]);
+            __DIR__ . '/../config/smeify.php' => base_path('config/smeify.php'),
+        ], 'config');
     }
 
     /**

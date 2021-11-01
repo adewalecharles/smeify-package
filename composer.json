@@ -2,6 +2,11 @@
     "name": "adewalecharles/smeify",
     "description": "Integrate Smeify easily into your apllication",
     "type": "library",
+     "keywords": [
+        "adewalecharles",
+        "smeify"
+    ],
+    "homepage": "https://github.com/adewalecharles/smeify",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -17,6 +22,9 @@
     "minimum-stability": "stable",
     "require": {
          "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "config": {
+        "sort-packages": true
     },
     "extra": {
     "laravel": {
