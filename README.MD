@@ -86,6 +86,12 @@ SMEIFY_PASSWORD = xxxxxxxx
 ```
 *If you are using a hosting service like heroku, ensure to add the above details to your configuration variables.*
 
+Then you need to migrate your databse
+
+```bash
+php artisan migrate
+```
+
 ## General Usage
 
 To get your list of data plans from smeify all you need to do is call Smeify helper method like so
