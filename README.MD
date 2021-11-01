@@ -1,5 +1,5 @@
 # Smeify Laravel Package
-
+[![Latest Version](https://img.shields.io/github/release/guzzle/guzzle.svg?style=flat-square)](https://github.com/adewalecharles/smeify-package/releases)
 [![Latest Stable Version](https://poser.pugx.org/adewalecharles/smeify/v/stable.svg)](https://packagist.org/packages/adewalecharles/smeify)
 [![License](https://poser.pugx.org/adewalecharles/smeify/license.svg)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/adewalecharles/smeify.svg?style=flat-square)](https://packagist.org/packages/adewalecharles/smeify)
