@@ -27,7 +27,7 @@ class ComposerStaticInit8d89d6d9d2b9f68cdfce1b93b90c5fbf
         ),
         'A' => 
         array (
-            'Adewalecharles\\Smeify\\' => 22,
+            'AdewaleCharles\\Smeify\\' => 22,
         ),
     );
 
@@ -53,7 +53,7 @@ class ComposerStaticInit8d89d6d9d2b9f68cdfce1b93b90c5fbf
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Adewalecharles\\Smeify\\' => 
+        'AdewaleCharles\\Smeify\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

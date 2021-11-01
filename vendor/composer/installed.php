@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7a070a999ddfd6d69aa16acd2cea6dedb311d2e8',
+        'reference' => 'd45d41585d464bff7013013f1c2784bde501de81',
         'name' => 'adewalecharles/smeify',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7a070a999ddfd6d69aa16acd2cea6dedb311d2e8',
+            'reference' => 'd45d41585d464bff7013013f1c2784bde501de81',
             'dev_requirement' => false,
         ),
         'guzzlehttp/guzzle' => array(
